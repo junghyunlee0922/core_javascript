@@ -5,10 +5,14 @@ module.exports = {
     node: true,
   },
   extends: 'eslint:recommended',
+  globals: {
+    getNode: true,
+  },
   overrides: [
     {
       env: {
         node: true,
+        attr: true,
       },
       files: ['.eslintrc.{js,cjs}'],
       parserOptions: {
@@ -21,6 +25,7 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
-    'no-unused-vars': 'warn',
+    'no-unused-vars': 'off',
+    'no-empty': 'warn',
   },
 };
