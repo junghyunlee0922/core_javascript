@@ -2,11 +2,13 @@
 /* Try Catch               */
 /* ----------------------- */
 
+// function aa() {}
+
 // aa();
 
-// let a = 10;
-// let b = 20;
-// let c = 30;
+// let a = 0;
+// let b = 10;
+// let c = 20;
 
 // try ... catch 동작 알고리즘
 // 1. try { ... } 코드 실행
